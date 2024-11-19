@@ -5,7 +5,7 @@ So, i published this because i wanted people to actually install missing UWP app
 So, You need to have the Windows SDK installed, then add C:\Program Files (x86)\Windows SDK\10\bin\<replace with version>\x86 into your system PATH.
 
 Script:
-´´
+```
 echo off
 setlocal enabledelayedexpansion
 
@@ -53,7 +53,7 @@ if !errorlevel! neq 0 (
 
 echo Done!
 pause
-´´
+```
 
 ## How to add to PATH
 First, press Win + R, then type sysdm.cpl, then enter.
